@@ -6,6 +6,9 @@
     vertical-align: baseline;
     -webkit-box-sizing: border-box;/*以你的border开始计算你的宽度*/
 }
+a {
+    text-decoration: none;
+}
 /*qing清除浮动*/
 .clearfix::before,
 .clearfix::after {
@@ -123,14 +126,18 @@ html, body {
 /*相关经历*/
 .column .content4 p {
     font-weight: 600;
-    line-height: 30px;
+    line-height: 32px;
     text-indent: 5px;
 }
+.column .content4 p.name {
+    padding-left:18px;
+    line-height: 30px;
+}
 .column .content4 ul {
-    padding-left:34px;
+    padding-left:45px;
 }
 .column .content4 ul li {
-    line-height:22px;
+    line-height:24px;
 }
 .column .content4 ul li a:hover {
     color: red;
